@@ -1,4 +1,4 @@
-row = 4
+row = int(input("Enter number of rows: "))
 for i in range(row):
     reset = row-1
     for j in range(i+1):
