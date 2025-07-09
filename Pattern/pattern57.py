@@ -1,7 +1,7 @@
 row = int(input("Enter number of rows: "))
-for i in range(row+1):
+for i in range(row):
     reset = 1
-    for j in range(i):
+    for j in range(i+1):
         print(chr(ord("A") + row - reset), end="")
         reset+=1
     print()
